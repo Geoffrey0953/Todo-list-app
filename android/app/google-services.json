@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "212249574640",
+    "project_id": "todolistapp-a73f7",
+    "storage_bucket": "todolistapp-a73f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212249574640:android:8373b569b527448b061635",
+        "android_client_info": {
+          "package_name": "com.geoffreylee.todo_list_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgwrzud6a5d5x9-eMhVr25cuBs76Cn1zw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

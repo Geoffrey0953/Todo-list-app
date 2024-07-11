@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>TODO List App</title>
+  <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-firestore.js"></script>
+  <script>
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyByWdHziCcf6m2Y00eR7bxQPP89t6dgYyE",
+      authDomain: "todolistapp-a73f7.firebaseapp.com",
+      projectId: "todolistapp-a73f7",
+      storageBucket: "todolistapp-a73f7.appspot.com",
+      messagingSenderId: "212249574640",
+      appId: "1:212249574640:web:2065278e15c998b5061635",
+      measurementId: "G-HHH1QXM9Z7"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+  <script src="main.dart.js" defer></script>
+</head>
+<body>
+<script>
+  // This is required for Firebase to work with Flutter Web
+  window.flutterWebAutoDetect = true;
+</script>
+<div id="output"></div>
+</body>
+</html>
